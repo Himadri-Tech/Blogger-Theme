@@ -1,0 +1,126 @@
+<b:section class='tabs' growth='horizontal' id='Sub-Menu' maxwidgets='1' showaddelement='yes'>
+      <b:widget id='Image1' locked='false' title='fff' type='Image' version='1'>
+        <b:widget-settings>
+          <b:widget-setting name='displayUrl'>https://photos.templatetoaster.info/vax3x3.jpg</b:widget-setting>
+          <b:widget-setting name='displayHeight'>969</b:widget-setting>
+          <b:widget-setting name='sectionWidth'>792</b:widget-setting>
+          <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+          <b:widget-setting name='displayWidth'>1600</b:widget-setting>
+          <b:widget-setting name='link'>#</b:widget-setting>
+          <b:widget-setting name='caption'>fff</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+                    <b:if cond='data:useImage'>
+                      <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+                        <b:if cond='data:mobile'>
+                          <div id='header-inner'>
+                            <div class='ttr_header_element_alignment container'>
+                              <div class='images_container'/>
+                            </div>
+                            <div class='images_container'>
+                              <a class='headerforeground01 ' href='' target='_self'/>
+                              <div class='ttr_headershape01'>
+                                <div class='html_content'>
+                                  <p style='margin:30px 0px 20px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:2.143em;'>A TEAM OF MEDICAL PROFESSIONALS</span></p>
+                                  <p style='margin:5px 0px 20px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:600;font-size:1.429em;'>To take care of Your Health</span></p>
+                                  <p style='margin:5px 0px 30px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:1.714em;color:rgba(1,134,213,1);'>COME FOR REGULAR CHECKUP</span></p>
+                                  <p style='margin:5px 0px 20px 0px;text-align:Center;'><span><a class='btn btn-md btn-default' href='#' target='_self'>LEARN MORE</a></span></p>
+                                </div>
+                              </div>
+                              <div class='ttr_headershape02'>
+                                <div class='html_content'>
+                                  <p style='margin:10px 0px 5px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:1.571em;color:rgba(255,255,255,1);'>ABOUT Allied Home Care</span>
+                                  </p>
+                                </div>
+                              </div>
+                              <div class='ttr_header_logo'/>
+                            </div>
+                          </div>
+                          <b:else/>
+
+                          <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;  + &quot;background-position: &quot;  + data:backgroundPositionStyleStr + &quot;; &quot; + data:800px;  + &quot;min-height: 150px; &quot;  + &quot;_height: &quot; + data:height  + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+                            <div class='ttr_header_element_alignment container'>
+                              <div class='images_container'/>
+                            </div>
+                            <div class='images_container'><a class='headerforeground01 ' href='' target='_self'/>
+                              <div class='ttr_headershape01'>
+                                <div class='html_content'>
+                                  <p style='margin:30px 0px 20px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:2.143em;'>A TEAM OF MEDICAL PROFESSIONALS</span>
+                                  </p>
+                                  <p style='margin:5px 0px 20px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:600;font-size:1.429em;'>To take care of Your Health</span>
+                                  </p>
+                                  <p style='margin:5px 0px 30px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:1.714em;color:rgba(1,134,213,1);'>COME FOR REGULAR CHECKUP</span>
+                                  </p>
+                                  <p style='margin:5px 0px 20px 0px;text-align:Center;'>
+                                    <span><a class='btn btn-md btn-default' href='#' target='_self'>LEARN MORE</a></span>
+                                  </p>
+                                </div>
+                              </div>
+
+                              <div class='ttr_headershape02'>
+                                <div class='html_content'>
+                                  <p style='margin:10px 0px 5px 0px;text-align:Center;'>
+                                    <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:1.571em;color:rgba(255,255,255,1);'>ABOUT Allied Home Care</span></p>
+                                </div>
+                              </div>
+                              <div class='ttr_header_logo'/>
+                            </div>
+                          </div>
+                        </b:if>
+                        <b:else/>
+
+                        <div id='header-inner'>
+                          <a href='data:blog.homepageUrl' style='display: block'>
+                            <img alt='data:title' style='display: block'/>
+                          </a>
+                          <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+                            <b:include name='description'/>
+                          </b:if>
+                        </div>
+                      </b:if>
+                      <b:else/>
+                      <div id='header-inner'>
+                        <div class='ttr_header_element_alignment container'>
+                          <div class='images_container'/>
+                        </div>
+                        <div class='images_container'>
+                          <a class='headerforeground01 ' href='' target='_self'/>
+                          <div class='ttr_headershape01'>
+                            <div class='html_content'>
+                              <p style='margin:30px 0px 20px 0px;text-align:Center;'>
+                                <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:2.143em;'>A TEAM OF MEDICAL PROFESSIONALS</span>
+                              </p>
+                              <p style='margin:5px 0px 20px 0px;text-align:Center;'>
+                                <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:600;font-size:1.429em;'>To take care of Your Health</span>
+                              </p>
+                              <p style='margin:5px 0px 30px 0px;text-align:Center;'>
+                                <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:1.714em;color:rgba(1,134,213,1);'>COME FOR REGULAR CHECKUP</span>
+                              </p>
+                              <p style='margin:5px 0px 20px 0px;text-align:Center;'>
+                                <span>
+                                  <a class='btn btn-md btn-default' href='#' target='_self'>LEARN MORE</a>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class='ttr_headershape02'>
+                            <div class='html_content'>
+                              <p style='margin:10px 0px 5px 0px;text-align:Center;'>
+                                <span style='font-family:&apos;Open Sans&apos;,&apos;Arial&apos;;font-weight:700;font-size:1.571em;color:rgba(255,255,255,1);'>ABOUT Allied Home Care</span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class='ttr_header_logo'/>
+                        </div>
+                      </div>
+                    </b:if>
+                  </b:includable>
+      </b:widget>
+    </b:section>
